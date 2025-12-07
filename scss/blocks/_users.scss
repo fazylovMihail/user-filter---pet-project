@@ -1,0 +1,31 @@
+.users {
+  padding: 60px 0;
+  height: 100%;
+  background-color: $color-cinnamon;
+
+  &__title {
+    position: relative;
+    margin: 0 0 40px;
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+
+    &::after {
+      content: "";
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-bottom: 3px solid $color-cream;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}

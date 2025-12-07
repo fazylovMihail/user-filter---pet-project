@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Kedebideri";
+  src: url("../../fonts/Kedebideri-Regular.woff2") format("woff2"), url("../../fonts/Kedebideri-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Kedebideri";
+  src: url("../../fonts/Kedebideri-Bold.woff2") format("woff2"), url("../../fonts/Kedebideri-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Kedebideri";
+  src: url("../../fonts/Kedebideri-Medium.woff2") format("woff2"), url("../../fonts/Kedebideri-Medium.woff") format("woff");
+}/*# sourceMappingURL=fonts.css.map */
