@@ -1,0 +1,17 @@
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 20px;
+  }
+
+  &__btns {
+    display: flex;
+    gap: 20px;
+  }
+}

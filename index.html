@@ -13,7 +13,27 @@
     <section class="users">
       <div class="container">
         <h1 class="users__title">Пользователи</h1>
-        <div class="users__list"></div>
+        <form action="#" class="filter-form users__form">
+          <div class="filter-form__inner">
+            <div class="custom-input">
+              <input type="text" class="custom-input__field" name="filter-name" id="filter-name">
+              <label class="custom-input__label" for="filter-name">фильтровать по имени</label>
+            </div>
+            <div class="custom-input">
+              <input type="text" class="custom-input__field" name="filter-age" id="filter-age">
+              <label class="custom-input__label" for="filter-age">фильтровать по возрасту</label>
+            </div>
+            <div class="custom-input">
+              <input type="text" class="custom-input__field" name="filter-hobby" id="filter-hobby">
+              <label class="custom-input__label" for="filter-hobby">фильтровать по хобби</label>
+            </div>
+          </div>
+          <div class="filter-form__btns">
+            <button class="btn" id="filter-form__reset">Сбросить</button>
+            <button class="btn" id="filter-form__filter">Фильтровать</button>
+          </div>
+        </form>
+        <ul class="users__list"></ul>
     </section>
   </main>
 
